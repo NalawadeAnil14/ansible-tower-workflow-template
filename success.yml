@@ -1,0 +1,10 @@
+---
+- name: ansible tower WF success 
+  hosts: localhost 
+  gather_facts: false   
+
+  tasks: 
+
+    - name: Success template  
+      debug: 
+        msg: "Deployment successfull" 

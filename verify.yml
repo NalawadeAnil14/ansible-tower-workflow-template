@@ -1,0 +1,10 @@
+---
+- name: ansible tower WF verify   
+  hosts: localhost 
+  gather_facts: false   
+
+  tasks: 
+
+    - name: Verify template  
+      debug: 
+        msg: "Verification started" 

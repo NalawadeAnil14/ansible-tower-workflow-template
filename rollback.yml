@@ -1,0 +1,10 @@
+---
+- name: ansible tower WF rollback    
+  hosts: localhost 
+  gather_facts: false   
+
+  tasks: 
+
+    - name: Rollback template  
+      debug: 
+        msg: "Rollback started" 
