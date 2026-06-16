@@ -1,0 +1,9 @@
+--- 
+- name: redhat VM 
+  hosts: localhost 
+  gather_facts: false 
+  
+  tasks: 
+    - name: Wait for 60 sec 
+      pause:
+        minutes: 1 
