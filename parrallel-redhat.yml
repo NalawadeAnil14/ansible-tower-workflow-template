@@ -6,4 +6,4 @@
   tasks: 
     - name: Wait for 60 sec 
       pause:
-        second: 30  
+        seconds: 30  
