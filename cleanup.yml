@@ -1,0 +1,10 @@
+---
+- name: ansible tower WF cleanup     
+  hosts: localhost 
+  gather_facts: false   
+
+  tasks: 
+
+    - name: Cleanup template  
+      debug: 
+        msg: "Cleanup started" 
